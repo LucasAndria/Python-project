@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Nom</th>
+            <th>Prenom</th>
+            <th>Age</th>
+            <th>Diplome</th>
+        </tr>
+        {% for enseignant in enseignants %}
+        <tr>
+            <td>{{enseignant.nom}}</td>
+            <td>{{enseignant.prenom}}</td>
+            <td>{{enseignant.age}}</td>
+            <td>{{enseignant.diplome}}</td>
+
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
