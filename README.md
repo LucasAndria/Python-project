@@ -1,2 +1,2 @@
 # Python-project
-un répertoire pour quelques uns de mes projets python
+Ce sont plusieurs projets ecrits avec le langage python
